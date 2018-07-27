@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+ <html lang="en" class="no-js"> 
+    <head>
+        <title>Login and Registration</title>
+        
+    </head>
+    <body>
+	
+<div class="container">
+           
+            <header>
+                <h1>  Login and Registration</h1>
+				
+            </header>
+            <section>				
+                <div id="container_demo" >
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                            <form  action="log.php" autocomplete="on" method="post"> 
+                                <h1 >Log in</h1> 
+                                <p> 
+                                    <label  for="username" class="uname" > Your email </label>
+                                    <input id="username" name="email" required="required" type="text" placeholder="example@gmail.com"/>
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd"> Your password </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="eg.123xyz" /> 
+                                </p>
+                                <p>
+									<input type="submit" name="submit" value="login">
+								</p>
+                                <p class="keeplogin"> 
+									<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+									<label for="loginkeeping">Keep me logged in</label>
+								</p>
+                                <p class="login button"> 
+                                   <a href="http://cookingfoodsworld.blogspot.in/" target="_blank" ></a>
+								</p>
+                                <p class="change_link">
+									Not a member yet ?
+									<a href="#toregister" class="to_register">Join us</a>
+								</p>
+                            </form>
+                        </div>
+
+
+
+ </div>
+        
+                       
+                            <form  action="registration.php"  method="post"> 
+                                <h1> Sign up </h1> 
+                                 First Name:<input   name="firstname" required="required" type="text" placeholder="first name" />
+                                 <br/>
+								 <br/>
+								 Last Name:<input   name="lastname" required="required" type="text" placeholder="lastname" />
+                                 <br/>
+								 <br/>
+								 Your Usename:<input   name="user" required="required" type="text" placeholder="username" />
+                                 <br/>
+								 <br/>
+								 Your Email:<input    name="email" required="required" type="email" placeholder="example@gmail.com"/> 
+                                 <br/>
+								 <br/>
+								 Your Password:<input   name="pass" required="required" type="password" placeholder="eg.123xyz"/>
+                                 <br/>
+								 <br/>
+								 Phone Number:<input name="phone" required="required" type="number" placeholder="eg.01xxxxxxxxx"/>
+                                 <br/>
+								 <br/>
+                               
+									<input type="submit" value="Sign up" name="submit" /> 
+								
+                               
+                            </form>
+                       
+						
+                    </div>
+                </div>  
+            </section>
+        </div>
+    </body>
+</html>
