@@ -1,0 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MyVideo</title>
+  <meta charset="utf-8">
